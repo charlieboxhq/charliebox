@@ -1,0 +1,28 @@
+{
+  "name": "charliebox",
+  "version": "0.0.1",
+  "description": "Encrypted, Git-federated personal communication platform. Anti-email. Anti-social-network.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "email",
+    "encryption",
+    "git",
+    "communication",
+    "privacy",
+    "federation",
+    "messaging"
+  ],
+  "author": "Charliebox Project <hello@charliebox.io>",
+  "license": "MIT",
+  "homepage": "https://charliebox.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlieboxhq/charliebox"
+  },
+  "bugs": {
+    "url": "https://github.com/charlieboxhq/charliebox/issues"
+  }
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "charliebox"
+version = "0.0.1"
+description = "Encrypted, Git-federated personal communication platform. Anti-email. Anti-social-network."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+authors = [
+    {name = "Charliebox Project", email = "hello@charliebox.io"},
+]
+keywords = ["email", "encryption", "git", "communication", "privacy", "federation"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.urls]
+Homepage = "https://charliebox.io"
+Repository = "https://github.com/charlieboxhq/charliebox"
+Issues = "https://github.com/charlieboxhq/charliebox/issues"
+
+[project.scripts]
+charliebox = "charliebox.cli:main"
